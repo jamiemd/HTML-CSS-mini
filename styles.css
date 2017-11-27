@@ -2,5 +2,15 @@
 @import './components/List.css';
 
 body {
-	margin: 0;
+	margin: 20px;
 }
+
+h1 {
+	margin: 0px;
+}
+
+h2 {
+	margin: 0px;
+	padding-bottom: 20px;
+}
+

@@ -1,8 +1,8 @@
 .section {
 	box-sizing: border-box;
 	display: inline-block;
-	background: gray;
 	padding: 20px;
+	border: solid 2px;
 }
 
 .section--full {
@@ -11,14 +11,31 @@
 	margin: 0;
 }
 
-.section--half {
+.section--left {
 	width: 50%;
+	border-top: 0px;
+}
+
+.section--right {
+	width: 50%;
+	border-top: 0px;
+	border-left: 0px;
 }
 
 .section p {
 	color: red;
 }
 
-.section--red-text .section__text {
-	color: red;
+.section__text {
+	padding-top: 5px;
 }
+
+
+.section--graybox {
+	background: gray;
+	padding: 10px;
+	float: right;
+	display: inline;
+	border: 0px;
+}
+
